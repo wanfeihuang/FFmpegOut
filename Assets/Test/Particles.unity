@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -142,15 +142,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a66fbd5ffe9b9d64da304996f1919f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _setResolution: 1
   _width: 640
   _height: 360
-  _frameRate: 30
-  _allowSlowDown: 1
   _preset: 0
-  _startTime: 1
-  _recordLength: 4
-  _shader: {fileID: 4800000, guid: a4bd3b00ad1ed53458ec6ff07694985e, type: 3}
+  _frameRate: 30
 --- !u!20 &271630894
 Camera:
   m_ObjectHideFlags: 0
@@ -293,15 +288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a66fbd5ffe9b9d64da304996f1919f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _setResolution: 1
   _width: 1280
   _height: 720
-  _frameRate: 30
-  _allowSlowDown: 1
   _preset: 0
-  _startTime: 2
-  _recordLength: 5
-  _shader: {fileID: 4800000, guid: a4bd3b00ad1ed53458ec6ff07694985e, type: 3}
+  _frameRate: 30
 --- !u!1 &401510807
 GameObject:
   m_ObjectHideFlags: 0
@@ -3998,7 +3988,7 @@ ParticleSystem:
     serializedVersion: 2
     enabled: 0
     subEmitters:
-    - serializedVersion: 2
+    - serializedVersion: 3
       emitter: {fileID: 0}
       type: 0
       properties: 0
@@ -8715,7 +8705,7 @@ ParticleSystem:
     serializedVersion: 2
     enabled: 0
     subEmitters:
-    - serializedVersion: 2
+    - serializedVersion: 3
       emitter: {fileID: 0}
       type: 0
       properties: 0

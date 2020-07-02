@@ -12,13 +12,13 @@ namespace FFmpegOut
         #region Factory methods
 
         public static FFmpegSession Create(
-            string name,
+            string path,
             int width, int height, float frameRate,
             FFmpegPreset preset
         )
         {
-            name += System.DateTime.Now.ToString(" yyyy MMdd HHmmss");
-            var path = name.Replace(" ", "_") + preset.GetSuffix();
+            //name += System.DateTime.Now.ToString(" yyyy MMdd HHmmss");
+            //var path = name.Replace(" ", "_") + preset.GetSuffix();
             return CreateWithOutputPath(path, width, height, frameRate, preset);
         }
 
